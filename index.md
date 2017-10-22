@@ -1,3 +1,17 @@
+# Welcome
+
+This document is intended to give a brief rundown of my previous work experience and github contributions. Whilst intended to be a document for employers, it also contains a broad overview of my work on Github.
+
+# Employment history:
+
+## Haskell Programmer - University of New South Wales
+### April 2017 to September 2017
+
+Limited term contract funded by a research grant. Work primarily consisted of redeveloping the lexer, parser and type checker for the compiler for the language [MCK](http://cgi.cse.unsw.edu.au/~mck/pmck/).
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/clintonmead/clintonmead.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
