@@ -49,7 +49,7 @@ Below is a non-complete list of my github projects. Currently all of my projects
 
 [`Generic-enum`](https://hackage.haskell.org/package/generic-enum) is a backwards compatable replacement of the standard Haskell `Enum` class which allows one to directly produce non-list data structures from functions such as `enumFrom`. This can be useful when one wants to use the standard enum function to generically produce infinite structures, which could loop forever if an intermediate list is created. 
 
-## Contributions to other projects
+## Contributions to other projects:
 
 ### Rank-2-classes
 
@@ -59,7 +59,7 @@ I've made a number of contributions to the [rank2classes](https://hackage.haskel
 
 I have a [patch to GHC](https://phabricator.haskell.org/D3822) in progress that adds a number of primative operations to GHC, namely involving signed multiplication. It currently just requires me to add test cases.
 
-## Future ideas
+## Future potential projects:
 
 Below I've put a few ideas of things I'd like to attempt in the future:
 
