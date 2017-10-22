@@ -4,18 +4,15 @@ This document is intended to give a brief rundown of my previous work experience
 
 ## Employment history:
 
-### Haskell Programmer - University of New South Wales 
-### April 2017 to September 2017
+### Haskell Programmer - University of New South Wales (April 2017 to September 2017)
 
 Limited term contract funded by a research grant. Work primarily consisted of redeveloping the lexer, parser and type checker for the compiler for the language [MCK](http://cgi.cse.unsw.edu.au/~mck/pmck/).
 
-### Staffer - Senator Leyonhjelm
-### Feburary 2016 - December 2016
+### Staffer - Senator Leyonhjelm (Feburary 2016 - December 2016)
 
 Tasks included creating, analysing and adjusting social media advertising campaigns, development on websites using PHP and Wordpress, and analysis of electoral results data. 
 
-### Application Support - University of Wollongong
-### 2006 - 2015
+### Application Support - University of Wollongong (2006 - 2015)
 
 Application support and integration development primarily for [Blackboard](http://www.blackboard.com/learning-management-system/blackboard-learn.aspx) but also [Equella](http://www.equella.com/). Variety languages used, including significant amounts of PL/SQL and SQL, but also Java, C++, Perl, Groovy, Python and Shell. The infrastructure which I worked on was Solaris Zones and Oracle databases. 
 
