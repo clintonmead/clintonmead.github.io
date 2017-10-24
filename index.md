@@ -16,7 +16,7 @@ Tasks included creating, analysing and adjusting social media advertising campai
 
 Application support and integration development primarily for [Blackboard](http://www.blackboard.com/learning-management-system/blackboard-learn.aspx) but also [Equella](http://www.equella.com/). Variety languages used, including significant amounts of PL/SQL and SQL, but also Java, C++, Perl, Groovy, Python and Shell. The infrastructure which I worked on was Solaris Zones and Oracle databases. 
 
-## Education
+## Education:
 
 Bachelor of Mathematics/Bachelor of Computer Science - University of Wollongong (2003 - 2006)
 
@@ -28,28 +28,28 @@ Below is a non-complete list of my github projects. Currently all of my projects
 
 [`Freelude`](https://hackage.haskell.org/package/freelude) is intended to work as a replacement `Prelude`, generalising concepts such as categories, functors, and even applicatives and monads, so they can be applied to more datatypes, such as sets and unboxed vectors. An overview of `Freelude` can be found in the main page of it's [hackage documentation](https://hackage.haskell.org/package/freelude-0.1.0.1/docs/Freelude.html).
 
-### Indextype
+### [Indextype](https://hackage.haskell.org/package/indextype)
 
 [`Indextype`](https://hackage.haskell.org/package/indextype) is a package of a number of type families that can be used to not only select elements from tuples, functions and constructors, but also form constraints such as "this type is a pair". 
 [`Freelude`](https://github.com/clintonmead/freelude) uses this package directly. More information on `Indextype` is best found on it's [hackage page](https://hackage.haskell.org/package/indextype).
 
-### Polydata
+### [Polydata](https://hackage.haskell.org/package/polydata)
 
 [`Polydata`](https://hackage.haskell.org/package/polydata) allows one to encapulate polymorphic data in a way that it can be passed into functions in a generic way that perserves it polymorphism. More details can be found in the [hackage documentation for `polydata-core`](https://hackage.haskell.org/package/polydata-core-0.1.0.0/docs/Data-Poly.html). `Polydata` also depends on [`Indextype`](https://github.com/clintonmead/indextype).
 
-### Typed-streams
+### [Typed-streams](https://hackage.haskell.org/package/typed-streams)
 
 [`Typed-streams`](https://hackage.haskell.org/package/typed-streams) is an attempt to get C-like performance out of Haskell code which uses higher level concepts like folds, maps, and list like appends. By being more explicit about the way "lists" or "streams" are constructed than the usual list constructor, we can sometimes help GHC compile to C like loops. The [`typed-streams` hackage documentation](https://hackage.haskell.org/package/typed-streams-0.1.0.1/docs/Data-Stream-Typed.html) gives an example of code which using lists runs quite slowly but using `typed-streams` allows for C-like performance.
 
-### Fast-mult
+### [Fast-mult](https://hackage.haskell.org/package/fast-mult)
 
 [`Fast-mult`](https://hackage.haskell.org/package/fast-mult) is an integer type that intelligently delays multiplications in such a way that multiplications are only performed with similar sized operands, greatly improving the performance of repeated muliplications which produce large integers. Hence it can improve the performance of existing numeric algorithms without changing the algorithms themselves. More details are in [`fast-mults` hackage documentation] https://hackage.haskell.org/package/fast-mult-0.1.0.2/docs/Data-FastMult.html).
 
-### Disjoint-set-stateful
+### [Disjoint-set-stateful](https://hackage.haskell.org/package/disjoint-set-stateful)
 
 [`Disjoint-set-stateful`](https://hackage.haskell.org/package/disjoint-set-stateful) is a Haskell implementation of a [disjoint-set data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) in the ST monad. It uses mutable unboxed arrays internally so should be quite fast.
 
-### Generic-enum
+### [Generic-enum](https://hackage.haskell.org/package/generic-enum) 
 
 [`Generic-enum`](https://hackage.haskell.org/package/generic-enum) is a backwards compatable replacement of the standard Haskell `Enum` class which allows one to directly produce non-list data structures from functions such as `enumFrom`. This can be useful when one wants to use the standard enum function to generically produce infinite structures, which could loop forever if an intermediate list is created. 
 
