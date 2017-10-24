@@ -1,6 +1,8 @@
-## Welcome
+## Welcome/Summary
 
-This document is intended to give a brief rundown of my previous work experience and github contributions. Whilst intended to be a document for employers, it also contains a broad overview of my work on Github.
+I'm a developer based in Sydney Australia. My background is primarily in Haskell development as seen below but I'm happy to get involved in other areas. Behind Haskell my next strongest language is C++. I also have experience using Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and Solaris Zones. I haven't explicitly got experience in big data stuff (i.e. Apache Spark) but I think I'd be able to pick it up, as I've had experience dealing with at least somewhat large dataset as part of an eLearning application. 
+
+If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
 ## Employment history:
 
@@ -62,6 +64,10 @@ I've made a number of contributions to the [rank2classes](https://hackage.haskel
 ### GHC
 
 I have a [patch to GHC](https://phabricator.haskell.org/D3822) in progress that adds a number of primative operations to GHC, namely involving signed multiplication. It currently just requires me to add test cases.
+
+## Stackoverflow contributions:
+
+If you want to read some of my (sometimes stupid) questions and answers on StackOverflow, you can go to my [profile page sorted by tag](https://stackoverflow.com/users/525980/clinton?tab=tags), and browse the tags based on topic. Much of my activity surrounded C++, although more recently my focus has shifted to Haskell.
 
 ## Future potential projects:
 
