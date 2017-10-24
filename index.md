@@ -24,7 +24,7 @@ Bachelor of Mathematics/Bachelor of Computer Science - University of Wollongong 
 
 Below is a non-complete list of my github projects. Currently all of my projects are in Haskell.
 
-### Freelude
+### [Freelude](https://hackage.haskell.org/package/freelude)
 
 [`Freelude`](https://hackage.haskell.org/package/freelude) is intended to work as a replacement `Prelude`, generalising concepts such as categories, functors, and even applicatives and monads, so they can be applied to more datatypes, such as sets and unboxed vectors. An overview of `Freelude` can be found in the main page of it's [hackage documentation](https://hackage.haskell.org/package/freelude-0.1.0.1/docs/Freelude.html).
 
