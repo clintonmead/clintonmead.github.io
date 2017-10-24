@@ -16,6 +16,10 @@ Tasks included creating, analysing and adjusting social media advertising campai
 
 Application support and integration development primarily for [Blackboard](http://www.blackboard.com/learning-management-system/blackboard-learn.aspx) but also [Equella](http://www.equella.com/). Variety languages used, including significant amounts of PL/SQL and SQL, but also Java, C++, Perl, Groovy, Python and Shell. The infrastructure which I worked on was Solaris Zones and Oracle databases. 
 
+## Education
+
+Bachelor of Mathematics/Bachelor of Computer Science - University of Wollongong (2003 - 2006)
+
 ## Github projects:
 
 Below is a non-complete list of my github projects. Currently all of my projects are in Haskell.
