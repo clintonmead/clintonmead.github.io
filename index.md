@@ -1,6 +1,6 @@
 ## Welcome/Summary
 
-I'm a developer based in Sydney Australia. My background is primarily in Haskell development as seen below but I'm happy to get involved in other areas. Behind Haskell my next strongest language is C++. I also have experience using Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and Solaris Zones. I haven't explicitly got experience in big data stuff (i.e. Apache Spark) but I think I'd be able to pick it up, as I've had experience dealing with at least somewhat large dataset as part of an eLearning application. 
+I'm a developer based in Sydney Australia. My background is primarily in Haskell development as seen below but I'm happy to get involved in other areas. Behind Haskell my next strongest language is C++. I also have experience using Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and Solaris Zones. 
 
 If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
