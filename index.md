@@ -55,6 +55,14 @@ Below is a non-complete list of my github projects. Currently all of my projects
 
 [`Generic-enum`](https://hackage.haskell.org/package/generic-enum) is a backwards compatable replacement of the standard Haskell `Enum` class which allows one to directly produce non-list data structures from functions such as `enumFrom`. This can be useful when one wants to use the standard enum function to generically produce infinite structures, which could loop forever if an intermediate list is created. 
 
+### [Static-closure](https://hackage.haskell.org/package/static-closure)
+
+[Static-closure](https://hackage.haskell.org/package/static-closure) is an implementation of applicative style serialisable data and arbitary functions, made possible with the `StaticPointers` extension to GHC. Whilst [Distributed-closure](https://hackage.haskell.org/package/distributed-closure) is a similar module, [Static-closure](https://hackage.haskell.org/package/static-closure) is more flexible, has less unsafe typecasts in it's implementation, and includes a Template Haskell approach to deriving instances which eliminates significant boilerplate.
+
+### [Stack-lib](https://hackage.haskell.org/package/stack-lib)
+
+[Stack-lib](https://hackage.haskell.org/package/stack-lib) is a wrapper around [stack](https://hackage.haskell.org/package/stack), designed to allow it to be easy to use [stack](https://hackage.haskell.org/package/stack) as a library. The longer term goal of this to develop an extension to stack (which I am currently naming "heap") which allows, for example, building against multiple LTS releases with one command. Also "heap" should be able to create new projects and do much of the tasks which are currently done manually, including creating and adding initial files to a git repository, connecting that repository to github, and adding continuous integration configurations against for example, Travis GI. Finally, releases should be a one command process, with the commit tested against CI, and if successful, uploaded to Hackage and tagged in git, the version number bumped, with the cabal file pointing to the newly tagged release. 
+
 ## Contributions to other projects:
 
 ### Rank-2-classes
@@ -76,10 +84,6 @@ Below I've put a few ideas of things I'd like to attempt in the future:
 ### Smart monoid folds
 
 I did a [blog post](https://clintonmeadprogramming.wordpress.com/2016/01/22/monoids-and-fast-folding-part-1/) a bit over a year ago about reorgansing `Foldable` so that `foldMap` would appropriately select the most efficient fold based on the Monoid type. The code is probably just needs a clean up and upload, but it might be worth integrating into `Freelude` in some way also.
-
-### Sort out the build system for my projects.
-
-Many of my github projects are now integrated with [TravisCI](https://travis-ci.org/clintonmead), but currently I do the upload to Hackage, not TravisCI. Instead TravisCI should be doing this after a successful build. Ideally however, after a successful build I'd like not only TravisCI to upload the package to Hackage, but also tag the commit and change the Cabal file to point to that tagged commit instead of master. 
 
 ### Get my packages onto stack
 
