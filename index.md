@@ -20,7 +20,7 @@ Application support and integration development primarily for [Blackboard](http:
 
 ## Education:
 
-Bachelor of Mathematics/Bachelor of Computer Science - University of Wollongong (2003 - 2006)
+Bachelor of Mathematics/Bachelor of Computer Science - University of Wollongong (2003 - 2006). A copy of my [academic transcript is here](https://clintonmead.github.io/transcript.html). 
 
 ## Github projects:
 
