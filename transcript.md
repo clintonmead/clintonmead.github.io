@@ -1,8 +1,7 @@
 **Academic Transcript**
 
-|----------|-------------|------------------|--------------------------------------------------------|----------|-----------|
 | **Year** | **Session** | **Subject Code** | **Subject Description**                                | **Mark** | **Grade** |
-|          |             |                  |                                                        |          |           |
+|----------|-------------|------------------|--------------------------------------------------------|----------|-----------|
 | 2006     | Spring      | CSCI323          | Artificial Intelligence                                | 91       | HD        |
 | 2006     | Spring      | CSCI368          | Network Security                                       | 72       | C         |
 | 2006     | Spring      | MATH212          | Applied Mathematical Modelling 2                       | 90       | HD        |
