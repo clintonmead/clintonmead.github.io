@@ -45,4 +45,3 @@
 | 2003     | Autumn      | MATH121          | Discrete Mathematics                                   | 96       | HD        |
 | 2003     | Autumn      | MATH187          | Mathematics 1A Part 1                                  | 78       | D         |
 | 2003     | Autumn      | STAT131          | Understanding Variation and Uncertainty                | 96       | HD        |
-|----------|-------------|------------------|--------------------------------------------------------|----------|-----------|
