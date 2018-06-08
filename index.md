@@ -6,6 +6,10 @@ If you think I'd be valuable to your organisation feel free to send me an email 
 
 ## Employment history:
 
+### C# developer - yReceipts
+
+C# and .Net developer. Particular focus on interfacing with Windows printing and keyboard hooks. 
+
 ### Haskell Programmer - University of New South Wales (April 2017 to September 2017)
 
 Limited term contract funded by a research grant. Work primarily consisted of redeveloping the lexer, parser and type checker for the compiler for the language [MCK](http://cgi.cse.unsw.edu.au/~mck/pmck/).
