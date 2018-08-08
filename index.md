@@ -1,14 +1,14 @@
 ## Welcome/Summary
 
-I'm a developer based in Sydney Australia. My background is primarily in Haskell development as seen below but I'm happy to get involved in other areas. Behind Haskell my next strongest language is C++. I also have experience using Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and Solaris Zones. 
+I'm a developer based in Sydney Australia. My background is primarily in Haskell development as seen below but I'm happy to get involved in other areas. Behind Haskell my next strongest language is C++. I also have experience using C#, Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and Solaris Zones. 
 
 If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
 ## Employment history:
 
-### C# developer - yReceipts (Feburary 2018 - ongoing_
+### C# developer - yReceipts (Feburary 2018 - ongoing)
 
-C# and .Net developer. Particular focus on interfacing with Windows printing and keyboard hooks. 
+C# and .NET developer. Particular focus on interfacing with Windows printing and UI development. 
 
 ### Haskell Programmer - University of New South Wales (April 2017 to September 2017)
 
