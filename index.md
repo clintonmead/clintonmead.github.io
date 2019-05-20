@@ -28,7 +28,7 @@ Bachelor of Mathematics/Bachelor of Computer Science - University of Wollongong 
 
 ## Github projects:
 
-Below is a non-complete list of my github projects. Currently all of my projects are in Haskell.
+Below is a non-complete list of my [github](https://github.com/clintonmead) projects. Currently all of my projects are in Haskell.
 
 ### [Freelude](https://hackage.haskell.org/package/freelude)
 
