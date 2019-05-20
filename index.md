@@ -28,7 +28,9 @@ Bachelor of Mathematics/Bachelor of Computer Science - University of Wollongong 
 
 ## Github projects:
 
-Below is a non-complete list of my [github](https://github.com/clintonmead) projects. Currently all of my projects are in Haskell.
+Below is a non-complete list of my [github](https://github.com/clintonmead) projects. They are written in both Haskell and C#/
+
+## Haskell:
 
 ### [Freelude](https://hackage.haskell.org/package/freelude)
 
@@ -67,6 +69,15 @@ Below is a non-complete list of my [github](https://github.com/clintonmead) proj
 
 [Stack-lib](https://hackage.haskell.org/package/stack-lib) is a wrapper around [stack](https://hackage.haskell.org/package/stack), designed to allow it to be easy to use [stack](https://hackage.haskell.org/package/stack) as a library. The longer term goal of this to develop an extension to stack (which I am currently naming "heap") which allows, for example, building against multiple LTS releases with one command. Also "heap" should be able to create new projects and do much of the tasks which are currently done manually, including creating and adding initial files to a git repository, connecting that repository to github, and adding continuous integration configurations against for example, Travis GI. Finally, releases should be a one command process, with the commit tested against CI, and if successful, uploaded to Hackage and tagged in git, the version number bumped, with the cabal file pointing to the newly tagged release. 
 
+## C#:
+
+### [Typeclasses in C#](https://github.com/clintonmead/type-classes-in-csharp)
+
+A proof of concept for a Functor/Applicative/Monad hierarchy in C#, presented at [November 2018 FP-Syd](http://fp-syd.ouroborus.net/wiki/Past/2018)
+
+### [Battletech Mods](https://github.com/clintonmead/BattletechMods)
+A variety of mods for the game [Battletech](http://battletechgame.com/), using [Harmony](https://github.com/pardeike/Harmony) to patch CLR methods at runtime and reflection to change ingame private data. 
+
 ## Contributions to other projects:
 
 ### Rank-2-classes
@@ -79,7 +90,7 @@ I have a [patch to GHC](https://phabricator.haskell.org/D3822) in progress that 
 
 ## Stackoverflow contributions:
 
-If you want to read some of my (sometimes stupid) questions and answers on StackOverflow, you can go to my [profile page sorted by tag](https://stackoverflow.com/users/525980/clinton?tab=tags), and browse the tags based on topic. Much of my activity surrounded C++, although more recently my focus has shifted to Haskell.
+If you want to read some of my (sometimes silly) questions and answers on StackOverflow, you can go to my [profile page sorted by tag](https://stackoverflow.com/users/525980/clinton?tab=tags), and browse the tags based on topic. Much of my activity surrounded C++, although more recently my focus has shifted to Haskell.
 
 ## Future potential projects:
 
