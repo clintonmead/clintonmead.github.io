@@ -1,6 +1,6 @@
 ## Welcome/Summary
 
-I'm a developer based in Sydney Australia. My background is primarily in Haskell development as seen below but I'm happy to get involved in other areas. Behind Haskell my next strongest language is C++. I also have experience using C#, Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and Solaris Zones. 
+I'm a developer based in Sydney Australia. My strongest languages are Haskell, C# and Rust. I would prefer to work with either Haskell or Rust. I also have experience using Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and Solaris Zones. 
 
 If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
@@ -34,7 +34,7 @@ Below is a non-complete list of my [github](https://github.com/clintonmead) proj
 
 ### [Freelude](https://hackage.haskell.org/package/freelude)
 
-[`Freelude`](https://hackage.haskell.org/package/freelude) is intended to work as a replacement `Prelude`, generalising concepts such as categories, functors, and even applicatives and monads, so they can be applied to more datatypes, such as sets and unboxed vectors. An overview of `Freelude` can be found in the main page of it's [hackage documentation](https://hackage.haskell.org/package/freelude-0.1.0.1/docs/Freelude.html).
+[`Freelude`](https://hackage.haskell.org/package/freelude) is intended to work as a replacement `Prelude`, generalising concepts such as categories, functors, and even applicatives and monads, so they can be applied to more datatypes, such as sets and unboxed vectors. An overview of `Freelude` can be found in the main page of it's [hackage documentation](https://hackage.haskell.org/package/freelude-0.1.0.1/docs/Freelude.html). This was presented at the [October 2017 FP-Syd](http://fp-syd.ouroborus.net/wiki/Past/2017) meetup.
 
 ### [Indextype](https://hackage.haskell.org/package/indextype)
 
@@ -73,7 +73,7 @@ Below is a non-complete list of my [github](https://github.com/clintonmead) proj
 
 ### [Typeclasses in C#](https://github.com/clintonmead/type-classes-in-csharp)
 
-A proof of concept for a Functor/Applicative/Monad hierarchy in C#, presented at [November 2018 FP-Syd](http://fp-syd.ouroborus.net/wiki/Past/2018)
+A proof of concept for a Functor/Applicative/Monad hierarchy in C#, presented at [November 2018 FP-Syd](http://fp-syd.ouroborus.net/wiki/Past/2018).
 
 ### [Battletech Mods](https://github.com/clintonmead/BattletechMods)
 A variety of mods for the game [Battletech](http://battletechgame.com/), using [Harmony](https://github.com/pardeike/Harmony) to patch CLR methods at runtime and reflection to change ingame private data. 
@@ -95,6 +95,10 @@ If you want to read some of my (sometimes silly) questions and answers on StackO
 ## Future potential projects:
 
 Below I've put a few ideas of things I'd like to attempt in the future:
+
+### Emulating Haskell style higher kinded type-classes in Rust
+
+I have done some work on developing Haskell like type-classes in Rust. I did a presentation on this at [June 2019 Rust-Syd](https://www.meetup.com/en-AU/Rust-Sydney/events/262194894/).
 
 ### Smart monoid folds
 
