@@ -1,6 +1,6 @@
 ## Welcome/Summary
 
-I'm a developer based in Sydney Australia. My strongest languages are Haskell, C# and Rust. I would prefer to work with either Haskell or Rust. I also have experience using Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and Solaris Zones. 
+I'm a developer based in Sydney Australia. My strongest languages are Haskell, C#, C++ and Rust. I also have experience using Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and Solaris Zones. 
 
 If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
