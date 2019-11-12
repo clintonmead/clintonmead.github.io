@@ -4,7 +4,7 @@ I'm a developer based in Sydney Australia. My strongest languages are Haskell, C
 
 If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
-[Click here to save this page as PDF](https://pdfmyurl.com/saveaspdf).
+[Click here to save this page as PDF](https://pdfcrowd.com/url_to_pdf/).
 
 ## Employment history:
 
