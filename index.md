@@ -4,6 +4,8 @@ I'm a developer based in Sydney Australia. My strongest languages are Haskell, C
 
 If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
+[Click here to save this page as PDF]("https://pdfmyurl.com/saveaspdf").
+
 ## Employment history:
 
 ### C# developer - yReceipts (Feburary 2018 - ongoing)
@@ -51,7 +53,7 @@ Below is a non-complete list of my [github](https://github.com/clintonmead) proj
 
 ### [Fast-mult](https://hackage.haskell.org/package/fast-mult)
 
-[`Fast-mult`](https://hackage.haskell.org/package/fast-mult) is an integer type that intelligently delays multiplications in such a way that multiplications are only performed with similar sized operands, greatly improving the performance of repeated muliplications which produce large integers. Hence it can improve the performance of existing numeric algorithms without changing the algorithms themselves. More details are in [`fast-mults` hackage documentation] https://hackage.haskell.org/package/fast-mult-0.1.0.2/docs/Data-FastMult.html).
+[`Fast-mult`](https://hackage.haskell.org/package/fast-mult) is an integer type that intelligently delays multiplications in such a way that multiplications are only performed with similar sized operands, greatly improving the performance of repeated muliplications which produce large integers. Hence it can improve the performance of existing numeric algorithms without changing the algorithms themselves. More details are in [`fast-mults` hackage documentation]( https://hackage.haskell.org/package/fast-mult-0.1.0.2/docs/Data-FastMult.html).
 
 ### [Disjoint-set-stateful](https://hackage.haskell.org/package/disjoint-set-stateful)
 
