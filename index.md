@@ -30,7 +30,7 @@ Bachelor of Mathematics/Bachelor of Computer Science - University of Wollongong 
 
 ## Github projects:
 
-Below is a non-complete list of my [github](https://github.com/clintonmead) projects. They are written in both Haskell and C#/
+Below is a non-complete list of my [github](https://github.com/clintonmead) projects. They are written in both Haskell, Rust and C#.
 
 ## Haskell:
 
@@ -71,6 +71,12 @@ Below is a non-complete list of my [github](https://github.com/clintonmead) proj
 
 [Stack-lib](https://hackage.haskell.org/package/stack-lib) is a wrapper around [stack](https://hackage.haskell.org/package/stack), designed to allow it to be easy to use [stack](https://hackage.haskell.org/package/stack) as a library. The longer term goal of this to develop an extension to stack (which I am currently naming "heap") which allows, for example, building against multiple LTS releases with one command. Also "heap" should be able to create new projects and do much of the tasks which are currently done manually, including creating and adding initial files to a git repository, connecting that repository to github, and adding continuous integration configurations against for example, Travis GI. Finally, releases should be a one command process, with the commit tested against CI, and if successful, uploaded to Hackage and tagged in git, the version number bumped, with the cabal file pointing to the newly tagged release. 
 
+## Rust:
+
+### [Haskell Bits](https://github.com/clintonmead/haskell_bits)
+
+An ongoing port of Haskell concepts into Rust, including the Functor/Applicative/Monad hierarchy. I did a presentation on this at [June 2019 Rust-Syd](https://www.meetup.com/en-AU/Rust-Sydney/events/262194894/), but have developed this significantly since then.
+
 ## C#:
 
 ### [Typeclasses in C#](https://github.com/clintonmead/type-classes-in-csharp)
@@ -85,39 +91,3 @@ A variety of mods for the game [Battletech](http://battletechgame.com/), using [
 ### Rank-2-classes
 
 I've made a number of contributions to the [rank2classes](https://hackage.haskell.org/package/rank2classes) package, which can be seen in my [repository fork of `grampa`](https://github.com/clintonmead/grampa). These generally involve defining functors and applicatives over rank-2 types. 
-
-### GHC
-
-I have a [patch to GHC](https://phabricator.haskell.org/D3822) in progress that adds a number of primative operations to GHC, namely involving signed multiplication. It currently just requires me to add test cases.
-
-## Stackoverflow contributions:
-
-If you want to read some of my (sometimes silly) questions and answers on StackOverflow, you can go to my [profile page sorted by tag](https://stackoverflow.com/users/525980/clinton?tab=tags), and browse the tags based on topic. Much of my activity surrounded C++, although more recently my focus has shifted to Haskell.
-
-## Future potential projects:
-
-Below I've put a few ideas of things I'd like to attempt in the future:
-
-### Emulating Haskell style higher kinded type-classes in Rust
-
-I have done some work on developing Haskell like type-classes in Rust. I did a presentation on this at [June 2019 Rust-Syd](https://www.meetup.com/en-AU/Rust-Sydney/events/262194894/).
-
-### Smart monoid folds
-
-I did a [blog post](https://clintonmeadprogramming.wordpress.com/2016/01/22/monoids-and-fast-folding-part-1/) a bit over a year ago about reorgansing `Foldable` so that `foldMap` would appropriately select the most efficient fold based on the Monoid type. The code is probably just needs a clean up and upload, but it might be worth integrating into `Freelude` in some way also.
-
-### Get my packages onto stack
-
-I'd like to get my packages into [Stack](https://www.stackage.org) as I use it to build myself. I probably want to sort out my build system first.
-
-### Extend cabal to deal with orphan instances
-
-When developing packages, I often run into this problem: I have created a class `C`, and some other package as data type `T`. It would make sense for `T` to be an instance of `C`, but most users of my package will never use `T`, and most users of `T`s package will never use my package.
-
-I'd like to extend cabal so dependencies can have "features", and so dependencies are recompiled if their current compilation did not include that requested feature. That way additional dependencies are only compiled if required.
-
-This probably isn't a simple patch, but I feel it would be useful as package developers would be more happy to add interaction with other packages, without fears of excessive dependencies nor having to create packages just full of orphan instances.
-
-### Covert some of my projects into other languages
-
-Whilst I haven't used it yet, I have an interest in Rust. I'd also like to convert some of my packages into Scala and C++.
