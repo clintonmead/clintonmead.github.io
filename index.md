@@ -59,13 +59,17 @@ Below is a non-complete list of my [github](https://github.com/clintonmead) proj
 
 [`Disjoint-set-stateful`](https://hackage.haskell.org/package/disjoint-set-stateful) is a Haskell implementation of a [disjoint-set data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) in the ST monad. It uses mutable unboxed arrays internally so should be quite fast.
 
+### [Static-closure](https://hackage.haskell.org/package/static-closure)
+
+[Static-closure](https://hackage.haskell.org/package/static-closure) is an implementation of applicative style serialisable data and arbitary functions, made possible with the `StaticPointers` extension to GHC. Whilst [Distributed-closure](https://hackage.haskell.org/package/distributed-closure) is a similar module, [Static-closure](https://hackage.haskell.org/package/static-closure) is more flexible, has less unsafe typecasts in it's implementation, and includes a Template Haskell approach to deriving instances which eliminates significant boilerplate.
+
 ### [Generic-enum](https://hackage.haskell.org/package/generic-enum) 
 
 [`Generic-enum`](https://hackage.haskell.org/package/generic-enum) is a backwards compatable replacement of the standard Haskell `Enum` class which allows one to directly produce non-list data structures from functions such as `enumFrom`. This can be useful when one wants to use the standard enum function to generically produce infinite structures, which could loop forever if an intermediate list is created. 
 
-### [Static-closure](https://hackage.haskell.org/package/static-closure)
+### [Map-classes](https://hackage.haskell.org/package/map-classes)
 
-[Static-closure](https://hackage.haskell.org/package/static-closure) is an implementation of applicative style serialisable data and arbitary functions, made possible with the `StaticPointers` extension to GHC. Whilst [Distributed-closure](https://hackage.haskell.org/package/distributed-closure) is a similar module, [Static-closure](https://hackage.haskell.org/package/static-closure) is more flexible, has less unsafe typecasts in it's implementation, and includes a Template Haskell approach to deriving instances which eliminates significant boilerplate.
+[`Map-classes`](https://hackage.haskell.org/package/map-classes) provides typeclasses for a variety of colletion types, so one can write generic algorithms which work on many implementations of collections without changing code.
 
 ### [Stack-lib](https://hackage.haskell.org/package/stack-lib)
 
