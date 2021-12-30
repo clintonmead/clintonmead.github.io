@@ -1,4 +1,4 @@
-**Academic Transcript**
+## Academic Transcript
 
 | **Year** | **Session** | **Subject Code** | **Subject Description**                                | **Mark** | **Grade** |
 |----------|-------------|------------------|--------------------------------------------------------|----------|-----------|
