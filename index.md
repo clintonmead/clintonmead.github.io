@@ -8,7 +8,11 @@ If you think I'd be valuable to your organisation feel free to send me an email 
 
 ## Employment history:
 
-### C# developer - yReceipts (Feburary 2018 - ongoing)
+### Scala/Javascript developer (July 2021 - ongoing)
+
+Sole developer and adminstrator of [ThinkCaddie](https://thinkcaddie.com). Scala backend with Javascript frontend, served by AWS EC2 instances and a AWS RDS Postgres database. The Javascript frontend is based on [React+Redux](https://react-redux.js.org/), and the Scala backend is using the [Play Framework](https://www.playframework.com/), with a functional programming style used throughout both the backend and frontend. As sole developer and adminstrator I work throughout the entire stack, and also do the devops work and deployments.
+
+### C# developer - yReceipts (Feburary 2018 - June 2021)
 
 C# and .NET developer. Particular focus on interfacing with Windows printing and UI development. 
 
