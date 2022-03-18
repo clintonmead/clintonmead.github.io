@@ -1,6 +1,6 @@
 ## Welcome/Summary
 
-I'm a developer based in Sydney Australia. My strongest languages are Haskell, C#, C++ and Rust. I also have experience using Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and Solaris Zones. 
+I'm a developer based in Sydney Australia. My strongest languages are Haskell, C#, C++, Scala and Rust. I also have experience using Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and some system administration on Sun Solaris systems. 
 
 If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
@@ -8,13 +8,15 @@ If you think I'd be valuable to your organisation feel free to send me an email 
 
 ## Employment history:
 
-### Scala/Javascript developer (July 2021 - ongoing)
+### Accenture (April 2022 - ongoing)
 
-Sole developer and adminstrator of [ThinkCaddie](https://thinkcaddie.com). Scala backend with Javascript frontend, served by AWS EC2 instances and a AWS RDS Postgres database. The Javascript frontend is based on [React+Redux](https://react-redux.js.org/), and the Scala backend is using the [Play Framework](https://www.playframework.com/), with a functional programming style used throughout both the backend and frontend. As sole developer and adminstrator I work throughout the entire stack, and also do the devops work and deployments.
+### Scala/Javascript developer (July 2021 - March 2022)
 
-### C# developer - yReceipts (Feburary 2018 - June 2021)
+Sole developer and adminstrator of [ThinkCaddie](https://thinkcaddie.com). Scala backend with Javascript frontend, served by AWS EC2 instances and a AWS RDS Postgres database. The Javascript frontend is based on [React+Redux](https://react-redux.js.org/), and the Scala backend is using the [Play Framework](https://www.playframework.com/), with a functional programming style used throughout both the backend and frontend. As sole developer and adminstrator I worked throughout the entire stack, and also did the devops work and deployments. I also developed a NixOS based virtual machine configuration designed to get new developers up and running with all build dependencies and editer plugins within minutes.
 
-C# and .NET developer. Particular focus on interfacing with Windows printing and UI development. 
+### C# developer - yReceipts/eyos (Feburary 2018 - June 2021)
+
+C# and .NET developer. Particular focus on interfacing with Windows printing and UI development. Large part of my role was developing a generic rules based model for matching products purchased at checkout against a large number of "promotions", that would trigger on based on a rule and provide some sort of discount or free product to the user. I designed this rule engine in a way that allowed for rules to be nested within rules yet these rules could be resolved in real-time, and promotions even alerted mid-transaction. A significant part of my role here also was to bring functional programming practices where appropriate to a more imperative/object-orientated codebase.
 
 ### Haskell Programmer - University of New South Wales (April 2017 to September 2017)
 
@@ -26,7 +28,17 @@ Tasks included creating, analysing and adjusting social media advertising campai
 
 ### Application Support - University of Wollongong (2006 - 2015)
 
-Application support and integration development primarily for [Blackboard](http://www.blackboard.com/learning-management-system/blackboard-learn.aspx) but also [Equella](http://www.equella.com/). Variety languages used, including significant amounts of PL/SQL and SQL, but also Java, C++, Perl, Groovy, Python and Shell. The infrastructure which I worked on was Solaris Zones and Oracle databases. 
+Application support and integration development primarily for [Blackboard](http://www.blackboard.com/learning-management-system/blackboard-learn.aspx) but also [Equella](http://www.equella.com/). Role included application support, focused on maintaining and enhancing the performance of a clustered system serving 1000+ simutaneous users, both of the front-end, and the back-end and Oracle database. Also work involved maintaining and extending integrations between university systems, which were written mostly in Perl with some shell scripting. Also implemented single-signon protocols between off the shelf products and PL/SQL inhouse products, and developed custom Oracle database hosted hierachical staff permissioning models for the University content management system Equella. I also worked on various data processing tasks for the school of psychology, primarily in C++.
+
+## Other skills
+
+### Linux
+
+I have ran Linux in some form at home for most of this century, firstly with Red Hat Linux and then moving on to [Debian (Potato)](https://www.debian.org/releases/potato) in 2000. I have started to experiment with configuring NixOS virtual machines. So I am comfortable with the linux command line and have a reasonable idea of how to administer Linux systems, at least at the home system level.
+
+### Marrying Functional and Object Orientated Programming
+
+I have a lot of experience with both functional and object-orientated programming. Most of my functional programming experience is unpaid and most of my object-orientated experience has been professional, but I have also done open source work in both fields also. In particular, I have an interest in how compilers work in both areas, so have somewhat of an understanding of the mechanics of say, a virtual-call vs a typeclass dictionary. Object-orientated and functional programming can be powerful when used together, as their strengths can used for different problems, but they can clash, so through my experience I've learnt how to meld whilst minimising friction.
 
 ## Education:
 
@@ -37,6 +49,14 @@ Bachelor of Mathematics/Bachelor of Computer Science - University of Wollongong 
 Below is a non-complete list of my [github](https://github.com/clintonmead) projects. They are written in both Haskell, Rust and C#.
 
 ## Haskell:
+
+### [Fast-mult](https://hackage.haskell.org/package/fast-mult)
+
+[`Fast-mult`](https://hackage.haskell.org/package/fast-mult) is an integer type that intelligently delays multiplications in such a way that multiplications are only performed with similar sized operands, greatly improving the performance of repeated muliplications which produce large integers. Hence it can improve the performance of existing numeric algorithms without changing the algorithms themselves. More details are in [`fast-mults` hackage documentation]( https://hackage.haskell.org/package/fast-mult-0.1.0.2/docs/Data-FastMult.html).
+
+### [Disjoint-set-stateful](https://hackage.haskell.org/package/disjoint-set-stateful)
+
+[`Disjoint-set-stateful`](https://hackage.haskell.org/package/disjoint-set-stateful) is a Haskell implementation of a [disjoint-set data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) in the ST monad. It uses mutable unboxed arrays internally so should be quite fast.
 
 ### [Freelude](https://hackage.haskell.org/package/freelude)
 
@@ -54,14 +74,6 @@ Below is a non-complete list of my [github](https://github.com/clintonmead) proj
 ### [Typed-streams](https://hackage.haskell.org/package/typed-streams)
 
 [`Typed-streams`](https://hackage.haskell.org/package/typed-streams) is an attempt to get C-like performance out of Haskell code which uses higher level concepts like folds, maps, and list like appends. By being more explicit about the way "lists" or "streams" are constructed than the usual list constructor, we can sometimes help GHC compile to C like loops. The [`typed-streams` hackage documentation](https://hackage.haskell.org/package/typed-streams-0.1.0.1/docs/Data-Stream-Typed.html) gives an example of code which using lists runs quite slowly but using `typed-streams` allows for C-like performance.
-
-### [Fast-mult](https://hackage.haskell.org/package/fast-mult)
-
-[`Fast-mult`](https://hackage.haskell.org/package/fast-mult) is an integer type that intelligently delays multiplications in such a way that multiplications are only performed with similar sized operands, greatly improving the performance of repeated muliplications which produce large integers. Hence it can improve the performance of existing numeric algorithms without changing the algorithms themselves. More details are in [`fast-mults` hackage documentation]( https://hackage.haskell.org/package/fast-mult-0.1.0.2/docs/Data-FastMult.html).
-
-### [Disjoint-set-stateful](https://hackage.haskell.org/package/disjoint-set-stateful)
-
-[`Disjoint-set-stateful`](https://hackage.haskell.org/package/disjoint-set-stateful) is a Haskell implementation of a [disjoint-set data structure](https://en.wikipedia.org/wiki/Disjoint-set_data_structure) in the ST monad. It uses mutable unboxed arrays internally so should be quite fast.
 
 ### [Static-closure](https://hackage.haskell.org/package/static-closure)
 
