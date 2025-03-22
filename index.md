@@ -1,3 +1,96 @@
+# WIP CV
+
+## Who am I?
+I'm Clinton Mead, a software engineer based in Sydney Australia. My strongest languages are Haskell, C#, C++, Rust and Scala. I also have experience using Java, Python, Perl and Groovy. I've also used a lot of SQL, primarily in the context of relational databases.
+
+## What is this and why?
+As part of this Resume/CV, I'm going to first talk about a bit about who I am, not just what I've done. Naturally what I've done has resulted in who I am, but people can have similar experiences and draw different conclusions. 
+
+I'll discuss three things:
+
+1. My approach to software development.
+2. The sort of problems I like to work on.
+3. My thoughts on how teams should work.
+
+I'll then go into a more traditional CV style approach. 
+
+I will say some things that, whilst probably not unique, are perhaps minority opinions. That being said, everyone has opinions, even if they don't voice them, and I'm not particularly set in my ways. Indeed I've currently come to these conclusions from almost 20 years experience working as a professional software developer, and I've came to these conclusions from my particular experiences previously. As I work with new people with new ideas and with new organisations I expect some of these to change.
+
+## My approach to software development
+
+### The three states software can be in:
+
+There are broadly three states a piece of software can be in, regarding it's correctness.
+
+In this, I could be referring to a function, a module, a library, a PR, or an entire application. Any piece of software that has some notion (either strictly or loosely defined) about what is it's "correct" behaviour can be categorised as being in one of these three states, namely:
+
+1. Correct
+2. Obviously incorrect OR 
+3. Subtlely incorrect
+
+Of these the best state is being correct. 
+
+The next best state is obviously incorrect, as software that is obviously incorrect, firstly fail to compile, be caught by basic functionality testing, or caught in manual testing before it gets close to an actual user.
+
+The worst state is subtlely incorrect. These are the issues that tend to be the most costly for organisations, because they slip through automated checks and testing, and even may slip by users for some time. When they are discovered also, there is often significant investment required to find the cause of the issue, because of the length of time the issue may have been hiding.
+
+Of note here is that "obviously incorrect" is generally better than "subtlely incorrect". That is correct is best, but if you're going to get something wrong, it's actually better to get it very wrong generally. A bug that occurs 100% of the time is often less costly than one that occurs 1% of the time. 
+
+In summary, correct software is best, very wrong software is second best, almost correct software is worst.
+
+I think a lot of people know this, but I haven't often seen it been explicitly stated. I'm driving the perhaps obvious point home here because it drives the rest of my philosophy on software development. That is, I try to deliberately develop software in a way that firstly increases the chance my software will be correct, but more importantly, most ensures that if it is incorrect, it is OBVIOUSLY incorrect, and not subtlely incorrect.
+
+(A side note here is over the last 18 months or so I've been using AI to assist writing code, it tends to be very good at creating code in the "subtlely incorrect" category. This is something one must be very careful about.) 
+
+### The three layers of a software system
+
+Unlike above, when I refer to a software system in this section, I'm generally referring to larger pieces of software, perhaps a whole app, a library, or a module. This has to do with the organisation and breakdown of software.
+
+Software systems have three broad layers:
+
+1. The "real world" layer
+2. The "abstract" layer
+3. The "nitty-gritty" layer
+
+I'll detail each of them now (p.s. If you have better naming suggestions I'm always happy to take them)
+
+#### The "real world" layer
+
+If you were to employ me to write software, you're making money from users and/or customers, and it's most likely they are paying you because they want to use software to help them do something in the real world. As much as I find pure mathematics and software problems fascinating, that's probably not what your user/customers are paying you for, and it's probably not what you're paying me for. Software generally does real world stuff. And there are requirements, and rules, about how those real world things are suppose to interact. So this is the first part of concrete advice for developing software: model your real world types.
+
+"Strings" and "Ints" are not real world things. They're computer things. Real world things are things like "dollars", "first name", "seconds". Dollars are not ints. $3 multiplied by $4 is nonsensical. "Alice" + "Bob" is also nonsensical. In nothing other than a childs word game do you reasonably put together "Alice" and "Bob" to get "AliceBob".
+
+Even more nonsensical is $3 multiplied by 4 seconds. 
+
+Now, names may be represented as strings, and dollars representated as ints or floats or whatever, but names are not strings, and dollars are not ints.
+
+This is one of the first steps towards software correctness. As much as possible, model the real world requirements in the type system. Humans have mushy brains that have trouble keeping track of more than five things at a time. A compiler will got through a codebase of tens of thousands of lines in seconds and tell you every time you've violated your own assumptions. Furthermore, and more importantly, it will tell you where you've violated your coworkers, or ex-coworkers assumptions. And it will do so reliably, more so than documentation and tests. Not that these aren't important also, but they aren't as reliable like clockwork. I will talk more about this later.  
+
+#### The "abstract" layer
+
+Modelling our real world types in the type system is important, instead of just using representational types everywhere. But here's the issue. The real world is complicated. Actually determining the rules and requirements any significant software system should follow is impossible. You will always put something out and eventually realise you haven't thought about some edge case and whilst the software may be doing exactly what it was designed to do it's really not what you meant it to do. This is one of those "subtlely incorrect" issues which we're really trying to avoid.
+
+The abstract layer doesn't mention our real world types. Someone reading the abstract layer should have little to no understanding of what our application actually does. Generic interfaces often fall into this category. For example an interface that represents a key-value store. A set, or a vector, would be in the abstract layer (even though their actual implementation will be in the layer below).
+
+Like the real world layer, entities in the abstract layer have particular laws for them which they are expected to always follow. But, the good thing about the entities in the abstract layer is they are in some sense "simpler". I can reliably say that adding an element to a vector increases it's length by one. That a set doesn't contain duplicate elements. That `(a + b) + c` is the same as `a + (b + c)`. 
+
+On the other hand, our real world objects are more complicated. They have more complex rules that we often find hard to define precisely, often running into edge cases which we didn't initially consider. Also, our application is likely quite distinct to any other application on the planet (if not, why are we be building it?). There are no common libraries/frameworks we can use to model our "real world" types. But then the idea is to map our real world types to abstract types through defined interface. Then we have the advantage of either:
+
+- Using preexisting code, avoiding reinventing the wheel OR
+- Defining our own interface, but one that is simpler that the real world one, and also perhaps useable for multiple purposes.
+
+As much as many people find mathematics complicated, it is actually, compared to the real world, really simple. In mathematics, we define the rules. We can explicitly enumerate them with confidence. Sometimes the consequences of those rules might be hard to understand, but at least we know what they are. In the real world, we're not really sure what the rules are in the first place. People think mathematics is more complex that the real world, but that's because that sort of preciseness is a part of doing mathematics. But if one actually made a fair comparison and demanded that level of preciseness when thinking about the real world, one would find mathematics is relatively easier to comprehend.
+
+So, because of this relative simplicity of the abstract layer, this is the layer where the least likely to go wrong. Even more importantly, in the abstract layer, if things go wrong, they are more likely to be OBVIOUSLY wrong, not SUBTLELY wrong.
+
+This is why, if one can put things in the abstract layer, that is, abstract away real world details whilst staying away from messy implementation details (as discussed below) then put the logic here. Logic in the abstract layer is the least likely to be wrong, because less things can go wrong. The abstract layer should be the reliable core and glue that brings together the "real world" layer and the "nitty gritty" layer discussed below.
+
+#### The "nitty gritty" layer 
+
+...
+
+# Old CV here
+
 ## Welcome/Summary
 
 I'm a developer based in Sydney Australia. My strongest languages are Haskell, C#, C++, Scala and Rust. I also have experience using Java, Python, Perl and Groovy. In my previous role at the University of Wollongong I also did a lot of work using SQL and PL/SQL on Oracle databases, and some system administration on Sun Solaris systems. 
