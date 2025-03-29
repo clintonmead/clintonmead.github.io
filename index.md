@@ -48,17 +48,17 @@ Unlike above, when I refer to a software system in this section, I'm generally r
 
 Software systems have three broad layers:
 
-1. The "real world" layer
+1. The "real world/application logic" layer
 2. The "abstract" layer
-3. The "nitty-gritty" layer
+3. The "implementation" layer
 
 I'll detail each of them now (p.s. If you have better naming suggestions I'm always happy to take them)
 
-#### The "real world" layer
+#### The "real world/application logic" layer
 
 If you were to employ me to write software, you're making money from users and/or customers, and it's most likely they are paying you because they want to use software to help them do something in the real world. As much as I find pure mathematics and software problems fascinating, that's probably not what your user/customers are paying you for, and it's probably not what you're paying me for. Software generally does real world stuff. And there are requirements, and rules, about how those real world things are suppose to interact. So this is the first part of concrete advice for developing software: model your real world types.
 
-"Strings" and "Ints" are not real world things. They're computer things. Real world things are things like "dollars", "first name", "seconds". Dollars are not ints. $3 multiplied by $4 is nonsensical. "Alice" + "Bob" is also nonsensical. In nothing other than a childs word game do you reasonably put together "Alice" and "Bob" to get "AliceBob".
+"Strings" and "Ints" are not real world things. They're computer things. Real world things are things like "dollars", "first name", "seconds". Dollars are not ints. $3 multiplied by $4 is nonsensical. "Alice" + "Bob" is also nonsensical.
 
 Even more nonsensical is $3 multiplied by 4 seconds. 
 
@@ -72,22 +72,55 @@ Modelling our real world types in the type system is important, instead of just 
 
 The abstract layer doesn't mention our real world types. Someone reading the abstract layer should have little to no understanding of what our application actually does. Generic interfaces often fall into this category. For example an interface that represents a key-value store. A set, or a vector, would be in the abstract layer (even though their actual implementation will be in the layer below).
 
-Like the real world layer, entities in the abstract layer have particular laws for them which they are expected to always follow. But, the good thing about the entities in the abstract layer is they are in some sense "simpler". I can reliably say that adding an element to a vector increases it's length by one. That a set doesn't contain duplicate elements. That `(a + b) + c` is the same as `a + (b + c)`. 
+Like the real world layer, entities in the abstract layer have particular laws for them which they are expected to always follow. But, the good thing about the entities in the abstract layer is they are in some sense "simpler". For example, I can reliably say that adding an element to a vector increases it's length by one. That a set doesn't contain duplicate elements. That `(a + b) + c` is the same as `a + (b + c)`. 
 
 On the other hand, our real world objects are more complicated. They have more complex rules that we often find hard to define precisely, often running into edge cases which we didn't initially consider. Also, our application is likely quite distinct to any other application on the planet (if not, why are we be building it?). There are no common libraries/frameworks we can use to model our "real world" types. But then the idea is to map our real world types to abstract types through defined interface. Then we have the advantage of either:
 
 - Using preexisting code, avoiding reinventing the wheel OR
 - Defining our own interface, but one that is simpler that the real world one, and also perhaps useable for multiple purposes.
 
-As much as many people find mathematics complicated, it is actually, compared to the real world, really simple. In mathematics, we define the rules. We can explicitly enumerate them with confidence. Sometimes the consequences of those rules might be hard to understand, but at least we know what they are. In the real world, we're not really sure what the rules are in the first place. People think mathematics is more complex that the real world, but that's because that sort of preciseness is a part of doing mathematics. But if one actually made a fair comparison and demanded that level of preciseness when thinking about the real world, one would find mathematics is relatively easier to comprehend.
+As much as many people find mathematics complicated, it is actually, compared to the real world, really simple. In mathematics, we define the rules. We can explicitly enumerate them with confidence. Sometimes the consequences of those rules might be hard to understand, but at least we know what they are. In the real world, it's far harder to define exactly what we're trying to achieve, and what we're trying to achieve is often changing. 
 
 So, because of this relative simplicity of the abstract layer, this is the layer where the least likely to go wrong. Even more importantly, in the abstract layer, if things go wrong, they are more likely to be OBVIOUSLY wrong, not SUBTLELY wrong.
 
-This is why, if one can put things in the abstract layer, that is, abstract away real world details whilst staying away from messy implementation details (as discussed below) then put the logic here. Logic in the abstract layer is the least likely to be wrong, because less things can go wrong. The abstract layer should be the reliable core and glue that brings together the "real world" layer and the "nitty gritty" layer discussed below.
+This is why, if one can put things in the abstract layer, that is, abstract away real world details whilst staying away from messy implementation details (as discussed below) then put the logic here. Logic in the abstract layer is the least likely to be wrong, because less things can go wrong. The abstract layer should be the reliable core and glue that brings together the "real world" layer and the "implementation" layer discussed below.
 
-#### The "nitty gritty" layer 
+We want to make the abstract layer as large as possible, because it is most likely to consist of well defined, reuseable code. 
 
-...
+#### The "implementation" layer 
+
+This is the part where we're actually "doing stuff". There's broadly two types of code here:
+
+- Code that actually interacts with other software/hardware systems, like external APIs, the disk, databases, etc.
+- Algorithmic code. For example, an actual quicksort implementation.
+
+The implementation layer, like the abstract layer, should not give hints about what our application is actually doing. 
+
+However, the implementation layer, like the real world layer is complicated. However, the reasons for it's complexity is different. In the "real world" layer the complexity is because the problem we're trying to solve is:
+
+1. Hard to define
+2. A moving target AND
+3. Unique
+
+The implementation layer isn't usually complex for these reasons, but is complex for other reasons, such that:
+
+- We may be doing with external systems that can for example, fail due to network outages or other issues.
+- We are moving outside of the confines of our own code/language, and our compiler can not assist us.
+- The algorithms we're writing are just a bit fiddly, and again, our type system doesn't give us strong guarentees of correctness. 
+
+The good thing about this layer is because it's not specific to our application, we may be able to find libraries that have already been written to do these tasks. 
+
+Indeed one of the things we should try to avoid, except for very trivial tasks, is to mash together real world application logic with implementation without clear separation, as this results in two bad outcomes.
+
+- We are putting together two parts of our system which both have significant complexity AND
+- We've destroyed the ability to reuse code for the implementation part of the code because we've mixed in application logic which is necessarily unique.
+
+### How does all this affect the way I develop software?
+
+Much of what I've said above doesn't seem too controversial, but put all together means I come up with software solutions which are quite different to other developers. Generally when approaching how to solve a business requirement, I go through the following steps:
+
+1. Transform the problems in the "real world" domain into one or many, problems in the "abstract" domain. That is, a number of problems that do not mention the particulars of the real world problem we're solving.
+2. Go solve each of these abstract problems. 
 
 # Old CV here
 
