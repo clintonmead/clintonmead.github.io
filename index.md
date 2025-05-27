@@ -14,7 +14,7 @@ I also have some experience using C++, TypeScript, Java, Python, Perl and Groovy
 
 Outside of programming languages, I have used Nix extensively to manage a build system, and have used Terraform a bit to manage Google infrastructure.
 
-Below you will see what is roughly an ordinary CV, but I have also included my thoughts on how I approach the craft of software engineering below. Keep reading (or [skip](#My approach to software development) to the bottom) to read that.
+Below you will see what is roughly an ordinary CV, but I have also included my thoughts on how I approach the craft of software engineering below. Keep reading (or [skip](#My-approach-to-software-development) to the bottom) to read that.
 
 If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
