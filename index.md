@@ -1,8 +1,8 @@
 ## Welcome/Summary
 
-I'm a software developer based in Sydney Australia. 
+Hi, I'm a software developer based in Sydney Australia. 
 
-I prefer to work in strongly typed functional programming languages, particularly Haskell, but have also worked with Scala.
+I prefer to work in strictly typed functional programming languages, particularly Haskell, but have also worked with Scala.
 
 I also have an interest in working with Rust.
 
@@ -14,11 +14,13 @@ I also have some experience using C++, TypeScript, Java, Python, Perl and Groovy
 
 Outside of programming languages, I have used Nix extensively to manage a build system, and have used Terraform a bit to manage Google infrastructure.
 
-Below you will see what is roughly an ordinary CV, but in addition [here you can read some thoughts](https://clintonmead.github.io/philosophy.html) on my approach to designing software. Whilst I don't think my approach is unique I don't think it's the norm either so it's probably worthwhile reading this to get a better idea of whether or not I'd fit into your team and culture.
+Below you will see what is roughly an ordinary resume, but in addition [here you can read some thoughts](https://clintonmead.github.io/philosophy.html) on my approach to designing software. Whilst I don't think my approach is unique I don't think it's the norm either so it's probably worthwhile reading this to get a better idea of whether or not I'd fit into your team and culture.
 
 If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
-[Click here to save this page as PDF](https://pdfcrowd.com/url_to_pdf/).
+Note, if you're reading this in a PDF, a web based and up to date version of this resume can be found at [https://clintonmead.github.io/](https://clintonmead.github.io/). 
+
+You can also save this page as a PDF by [clicking here](https://pdfcrowd.com/url_to_pdf/).
 
 ## Employment history:
 
@@ -78,7 +80,7 @@ AesonDiff also originally wasn't my project, but was handed over to me after mak
 
 #### [Haskell Bits](https://github.com/clintonmead/haskell_bits)
 
-An ongoing port of Haskell concepts into Rust, including the Functor/Applicative/Monad hierarchy. I did a presentation on this at [June 2019 Rust-Syd](https://www.meetup.com/en-AU/Rust-Sydney/events/262194894/).
+A port of Haskell concepts into Rust, including the Functor/Applicative/Monad hierarchy. I did a presentation on this at [June 2019 Rust-Syd](https://www.meetup.com/en-AU/Rust-Sydney/events/262194894/).
 
 ### C#:
 
