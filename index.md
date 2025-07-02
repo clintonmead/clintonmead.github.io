@@ -24,29 +24,29 @@ You can also save this page as a PDF by [clicking here](https://pdfcrowd.com/url
 
 ## Employment history:
 
-### Haskell developer - PaidRight (July 2022 - Feburary 2025)
+### Haskell Engineer - PaidRight (July 2022 - Feburary 2025)
 
-Primary backend developer at [PaidRight](https://www.paidright.io). Backend was written in Haskell, developed and maintained interfaces with Google BigQuery, Google PubSub, GCS, Postgres and Auth0, as part of the required application logic. Also developed a typesafe API exposed via OpenAPI that produced typesafe TypeScript code which would trigger compile errors if inconsistent changes were made to the backend and frontend. These were achieved with the help of significant contributions to [Autodocodec](github.com/NorfairKing/autodocodec/) and [AesonDiff](https://github.com/clintonmead/aeson-diff). Also maintained the build system using Nix.
+Primary backend developer at [PaidRight](https://www.paidright.io). Backend was written in Haskell, developed and maintained interfaces with Google BigQuery, Google PubSub, GCS, Postgres and Auth0, as part of the required application logic. Also developed a typesafe API exposed via OpenAPI that produced typesafe TypeScript code which would trigger compile errors if inconsistent changes were made to the backend and frontend. These were achieved with the help of significant contributions to [Autodocodec](https://github.com/NorfairKing/autodocodec/) and [AesonDiff](https://github.com/clintonmead/aeson-diff). Also maintained the build system using Nix.
 
-### Scala/Javascript developer - Complii (July 2021 - March 2022)
+### Scala/Javascript Engineer - Complii (July 2021 - March 2022)
 
-Sole developer and adminstrator of [ThinkCaddie](https://thinkcaddie.com). Scala backend with Javascript frontend, served by AWS EC2 instances and a AWS RDS Postgres database. The Javascript frontend is based on [React+Redux](https://react-redux.js.org/), and the Scala backend is using the [Play Framework](https://www.playframework.com/), with a functional programming style used throughout both the backend and frontend. As sole developer and adminstrator I worked throughout the entire stack, and also did the devops work and deployments. I also developed a NixOS based virtual machine configuration designed to get new developers up and running with all build dependencies and editer plugins within minutes.
+Sole developer and adminstrator of [ThinkCaddie](https://thinkcaddie.com). Scala backend with Javascript frontend, served by AWS EC2 instances and a AWS RDS Postgres database. The Javascript frontend was based on [React+Redux](https://react-redux.js.org/), and the Scala backend was using the [Play Framework](https://www.playframework.com/), with a functional programming style used throughout both the backend and frontend. As sole developer and adminstrator I worked throughout the entire stack, and also did the devops work and deployments. I also developed a NixOS based virtual machine configuration designed to get new developers up and running with all build dependencies and editor plugins within minutes.
 
-### C# developer - yReceipts/eyos (Feburary 2018 - June 2021)
+### C# Engineer - yReceipts/eyos (Feburary 2018 - June 2021)
 
-C# and .NET developer. Particular focus on interfacing with Windows printing and UI development. Large part of my role was developing a generic rules based model for matching products purchased at checkout against a large number of "promotions", that would trigger on based on a rule and provide some sort of discount or free product to the user. I designed this rule engine in a way that allowed for rules to be nested within rules yet these rules could be resolved in real-time, and promotions even alerted mid-transaction. A significant part of my role here also was to bring functional programming practices where appropriate to a more imperative/object-orientated codebase.
+C# and .NET Engineer. Particular focus on interfacing with Windows printing and UI development. Large part of my role was developing a generic rules based model for matching products purchased at checkout against a large number of “promotions”, that would trigger on based on a rule and provide some sort of discount or free product to the user. I designed this rule engine in a way that allowed for rules to be nested within rules yet these rules could be resolved in real-time. A significant part of my role here also was to bring functional programming practices where appropriate to a more imperative/object-orientated codebase.
 
-### Haskell developer - University of New South Wales (April 2017 to September 2017)
+### Haskell Engineer - University of New South Wales (April 2017 to September 2017)
 
 Limited term contract funded by a research grant. Work primarily consisted of redeveloping the lexer, parser and type checker for the compiler for the language [MCK](http://cgi.cse.unsw.edu.au/~mck/pmck/).
 
 ### Staffer - Senator Leyonhjelm (Feburary 2016 - December 2016)
 
-Tasks included creating, analysing and adjusting social media advertising campaigns, development on websites using PHP and Wordpress, and analysis of electoral results data. 
+Tasks included creating, analysing and adjusting social media advertising campaigns, development on websites using PHP and Wordpress, and analysis of electoral results data.
 
-### Application Support - University of Wollongong (2006 - 2015)
+### Application Development and Support - University of Wollongong (2006 - 2015)
 
-Application support and integration development primarily for [Blackboard](http://www.blackboard.com/learning-management-system/blackboard-learn.aspx) but also [Equella](http://www.equella.com/). Role included application support, focused on maintaining and enhancing the performance of a clustered system serving 1000+ simutaneous users, both of the front-end, and the back-end and Oracle database. Also work involved maintaining and extending integrations between university systems, which were written mostly in Perl with some shell scripting. Also implemented single-signon protocols between off the shelf products and PL/SQL inhouse products, and developed custom Oracle database hosted hierachical staff permissioning models for the University content management system Equella. I also worked on various data processing tasks for the school of psychology, primarily in C++.
+Application support and integration development primarily for [Blackboard](http://www.blackboard.com/learning-management-system/blackboard-learn.aspx) but also [Equella](http://www.equella.com/). Role included application support, focused on maintaining and enhancing the performance of a clustered system serving 1000+ simultaneous users, both of the front-end, and the back-end and Oracle database. Also work involved maintaining and extending integrations between university systems, which were written mostly in Perl with some shell scripting. Also implemented single-signon protocols between off the shelf products and PL/SQL inhouse products, and developed custom Oracle database hosted hierarchical staff permissioning models for the University content management system Equella. I also worked on various data processing tasks for the school of psychology, primarily in C++.
 
 ## Education:
 
