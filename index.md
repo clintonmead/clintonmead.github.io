@@ -1,4 +1,6 @@
-## Welcome/Summary
+# Clinton Mead's Resume/Portfolio
+
+## Summary
 
 Hi, I'm a software developer based in Sydney Australia. 
 
