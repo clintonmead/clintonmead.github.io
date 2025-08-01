@@ -2,15 +2,13 @@
 
 Hi, I'm a software developer based in Sydney Australia. 
 
-I prefer to work in strictly typed functional programming languages, particularly Haskell, but have also worked with Scala.
+I've worked in a variety of programming lanauges, particularly Haskell, C# and Scala.
 
-I also have an interest in working with Rust.
-
-I have done significant work with C# in the past also. 
+I also have some experience using C++, TypeScript, Java, Python, Perl and Groovy. 
 
 Throughout most of my career I've done a lot of SQL, mainly focusing on relational databases (Postgres and Oracle) but I have had some interaction with BigQuery also.
 
-I also have some experience using C++, TypeScript, Java, Python, Perl and Groovy. 
+I also have an interest in working with Rust.
 
 Outside of programming languages, I have used Nix extensively to manage a build system, and have used Terraform a bit to manage Google infrastructure.
 
@@ -26,7 +24,7 @@ You can also save this page as a PDF by [clicking here](https://pdfcrowd.com/url
 
 ### Haskell Engineer - PaidRight (July 2022 - Feburary 2025)
 
-Primary backend developer at [PaidRight](https://www.paidright.io). Backend was written in Haskell, developed and maintained interfaces with Google BigQuery, Google PubSub, GCS, Postgres and Auth0, as part of the required application logic. Also developed a typesafe API exposed via OpenAPI that produced typesafe TypeScript code which would trigger compile errors if inconsistent changes were made to the backend and frontend. These were achieved with the help of significant contributions to [Autodocodec](https://github.com/NorfairKing/autodocodec/) and [AesonDiff](https://github.com/clintonmead/aeson-diff). Also maintained the build system using Nix.
+Primary backend developer at [PaidRight](https://www.paidright.io). Backend was written in Haskell, developed and maintained interfaces with Google BigQuery, Google PubSub, GCS, Postgres and Auth0, as part of the required application logic. Also developed a typesafe API exposed via OpenAPI that produced typesafe TypeScript code which would trigger compile errors if inconsistent changes were made to the backend and frontend. These were achieved with the help of significant contributions to [Autodocodec](https://github.com/NorfairKing/autodocodec/) and [AesonDiff](https://github.com/clintonmead/aeson-diff). I was also the primary maintainer of our Nix build system, and did work in updating our Terraform infrastructure when it came to deploying our backend.
 
 ### Scala/Javascript Engineer - Complii (July 2021 - March 2022)
 
