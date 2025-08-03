@@ -1,4 +1,6 @@
-# Clinton Mead's Resume/Portfolio
+---
+title: Clinton Mead’s Resume/Portfolio
+---
 
 ## Summary
 
