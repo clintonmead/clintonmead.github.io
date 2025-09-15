@@ -203,12 +203,10 @@ In the end I think these aren't just theoritical ideas, they help the bottom lin
 
 If you're a potential employer looking to hire me, you're going to make a significant investment into me anyway, which will dwarf the half an hour or so it takes you to read all this. 
 
-I understand that many software developers do not look at the craft of software development like I do. I don't think I'm unique but I don't think I'm in the majority also. As my views are in the minority there's a good chance that you may just think I'm not right for your organisation. And that's okay, it's better we both find that out sooner rather than latter.
+I understand that many software developers do not look at the craft of software development like I do. For example, not many would have a public document like this connected to their resume. Some do, I'm certainly not unique but it's certainly not the norm either.
 
-But, knowing that I'm in the minority, I don't expect everyone to think like me. Indeed I've mostly worked with people that don't think like me. And had very productive working relationships with such people, learning from each other, both building off each others strengths, but also maintaining our distinct approaches. 
+But, knowing that I'm in the minority, I don't expect everyone to think exactly like me. Indeed, working twenty years in the software industry, I've mostly worked with people that don't take this approach to software engineering. And that's not only okay, it's indeed necessary. Good organisations are strengthened by multiple viewpoints, as are the individuals in them. 
 
-The question you should ask is, do you want a voice like mine in your organisation, into that mix of ideas? Is there a place for this sort of approach in your company culture, or even in particular areas of your application, even if it isn't the dominant view in your organisation.
-
-I have no desire to control everyone else does, but I do prefer to work in a place where at least I can work, most of the time, in a style like I do suggest above. 
+The question you should ask is, do you want a voice like mine in your organisation, into that mix of ideas? Is there a place for this sort of approach in your company culture, or even in particular areas of your application, even if it isn't the dominant view in your organisation?
 
 If you think there's a place in your team for someone like me, please get in touch. My contact details are listed at the top of my [CV](https://clintonmead.github.io/index.html).

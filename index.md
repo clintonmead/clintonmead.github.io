@@ -6,13 +6,17 @@ title: Clinton Mead’s Resume/Portfolio
 
 Hi, I'm a software developer based in Sydney Australia. 
 
-I've worked in a variety of programming lanauges, particularly Haskell, C# and Scala.
+In my career I've worked in a variety of programming lanauges, primarily Haskell, C#, Scala, Java and C++, but also TypeScript, Python, Perl and Unix Shell.
 
-I also have some experience using C++, TypeScript, Java, Python, Perl and Groovy, and an interest in working with Rust.
+I've also done some open source work in Rust.
 
-Also throughout most of my career I've done a lot of SQL, mainly focusing on relational databases (Postgres and Oracle) but I have had some interaction with BigQuery also.
+I've had plenty of experience using SQL in relational databases (Postgres and Oracle) and also some experience in using BigQuery.
 
-Outside of programming languages, I have used Nix extensively to manage a build system, and have used Terraform a bit to manage Google infrastructure.
+Regarding devops, I have used Nix extensively to manage a build system, and have used Terraform a bit to manage Google infrastructure.
+
+I've worked in a variety of different roles including integrations and application support, and Windows UI development, but my most recent experience has been backend focused, with some frontend and cloud infrastructure work on the side. 
+
+I written down some thoughts on my approach to software engineering, you can read those [here](https://clintonmead.github.io/philosophy.html).
 
 If you think I'd be valuable to your organisation feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or drop me a message on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
@@ -111,10 +115,6 @@ I would also like to add telemetry providers to this framework also.
 The idea should be that adding new entities to a web application should be a job that should be completed within minutes in most cases, allowing for more rapid prototyping and expanding an application, and reducing the number of backend developers required to maintain an application, even when there is a significant frontend and UI team.
 
 ## More about me
-
-### Approach of software development
-
-[You can read some thoughts](https://clintonmead.github.io/philosophy.html) on my approach to designing software. Whilst I don't think my approach is unique I don't think it's the norm either so it's probably worthwhile reading this to get a better idea of whether or not I'd fit into your team and culture.
 
 ### Football
 
