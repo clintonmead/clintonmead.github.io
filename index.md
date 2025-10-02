@@ -16,7 +16,7 @@ Regarding DevOps, I have used Nix extensively to manage a build system and have 
 
 I've worked in various roles, including integrations, application support, and Windows UI development, but my most recent experience has been backend-focused, with some frontend and cloud infrastructure work on the side.
 
-I've written down some thoughts on my approach to software engineering, which you can read [here](https://clintonmead.github.io/philosophy.html).
+I've written down some thoughts on my approach to software engineering, which you can read [here](https://clintonmead.github.io/approach.html).
 
 If you think I'd be valuable to your organization, feel free to send me an email at [clintonmead@gmail.com](mailto:clintonmead@gmail.com) or message me on [LinkedIn](https://www.linkedin.com/in/clintonmead/).
 
