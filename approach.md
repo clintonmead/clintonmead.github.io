@@ -1,4 +1,4 @@
-# My approach developing software
+# My approach to software engineering
 
 Below are a few notes I've put down on the thought process I use when developing software. I thought it would be good to put them on paper instead of just keeping them in my head. These are just my thoughts from my experiences, but this is somewhat of a living document; I may update these from time to time, as I get new insights from new experiences. 
 

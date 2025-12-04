@@ -1,4 +1,4 @@
-# "Complexity"
+# What is complexity?
 
 You've probably heard statements much like the following:
 
