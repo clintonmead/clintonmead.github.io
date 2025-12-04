@@ -12,7 +12,7 @@ I've also done some open-source work in Rust.
 
 I have extensive experience using SQL in relational databases (PostgreSQL and Oracle) and some experience with BigQuery.
 
-Regarding DevOps, I have used Nix extensively to manage a build system and have used Terraform to manage Google infrastructure.
+Regarding DevOps, I have used Nix extensively to manage a build system and Terraform to manage Google infrastructure.
 
 I've worked in various roles, including integrations, application support, and Windows UI development, but my most recent experience has been backend-focused, with some frontend and cloud infrastructure work on the side.
 
@@ -28,7 +28,7 @@ You can also save this page as a PDF by [clicking here](https://pdfcrowd.com/url
 
 ### Haskell Engineer - PaidRight (July 2022 - February 2025)
 
-Primary backend developer at [PaidRight](https://www.paidright.io). The backend was written in Haskell, and I developed and maintained interfaces with Google BigQuery, Google PubSub, GCS, PostgreSQL, and Auth0 as part of the required application logic. I also developed a type-safe API exposed via OpenAPI that produced type-safe TypeScript code, triggering compile errors if inconsistent changes were made to the backend and frontend. These were achieved with significant contributions to [Autodocodec](https://github.com/NorfairKing/autodocodec/) and [AesonDiff](https://github.com/clintonmead/aeson-diff). I was the primary maintainer of our Nix build system and worked on updating our Terraform infrastructure for deploying our backend.
+I was the primary backend developer at [PaidRight](https://www.paidright.io). The backend was written in Haskell, and I developed and maintained interfaces with Google BigQuery, Google PubSub, GCS, PostgreSQL, and Auth0 as part of the required application logic. I also developed a type-safe API exposed via OpenAPI that produced type-safe TypeScript code, triggering compile errors if inconsistent changes were made to the backend and frontend. These were achieved with significant contributions to [Autodocodec](https://github.com/NorfairKing/autodocodec/) and [AesonDiff](https://github.com/clintonmead/aeson-diff). I was the primary maintainer of our Nix build system and worked on updating our Terraform infrastructure for deploying our backend.
 
 ### Scala/JavaScript Engineer - Complii (July 2021 - March 2022)
 
@@ -40,7 +40,7 @@ C# and .NET Engineer with a focus on interfacing with Windows printing and UI de
 
 ### Haskell Engineer - University of New South Wales (April 2017 - September 2017)
 
-Limited-term contract funded by a research grant. Work primarily consisted of redeveloping the lexer, parser, and type checker for the compiler for the language [MCK](http://cgi.cse.unsw.edu.au/~mck/pmck/).
+Limited-term contract funded by a research grant. The work primarily consisted of redeveloping the lexer, parser, and type checker for the compiler for the language [MCK](http://cgi.cse.unsw.edu.au/~mck/pmck/).
 
 ### Staffer - Senator Leyonhjelm (February 2016 - December 2016)
 
@@ -64,7 +64,7 @@ Below, I've listed some of my more significant and recent open-source work. Addi
 
 #### [Autodocodec](https://github.com/NorfairKing/autodocodec/)
 
-Autodocodec is not my project, but I have made significant contributions to it. It allows one to define a codec, decoder, and documentation with a single definition, consistently generating serializers, deserializers (for JSON or other formats), OpenAPIs, and more. My contributions focused on increasing the library's flexibility and adding support for new datatypes.
+Autodocodec is not my project, but I have made significant contributions to it. It allows developers to define a codec, decoder, and documentation with a single definition, consistently generating serializers, deserializers (for JSON or other formats), OpenAPI specs, and more. My contributions focused on increasing the library's flexibility and adding support for new datatypes.
 
 #### [AesonDiff](https://github.com/clintonmead/aeson-diff)
 
@@ -96,7 +96,7 @@ A proof of concept for a Functor/Applicative/Monad hierarchy in C#, presented at
 
 #### CRUD-Style Type Generation
 
-In web applications, CRUD-style datatypes are common, involving entities one wants to create, read, update, delete, and often perform bulk queries on. This involves several components:
+In web applications, CRUD-style datatypes are common, involving entities that need to be created, read, updated, deleted, and often queried in bulk. This involves several components:
 
 1. A backing database
 2. Serialization/deserialization code
@@ -107,11 +107,11 @@ Each of these operations (create, read, update, delete) often requires different
 
 The idea behind this framework is to encapsulate these details in a single type definition, generating consistent database calls, serialization/deserialization functions, a web server, and an API spec without repetitive boilerplate. However, it must allow for custom logic injection for complex cases like authentication and authorization.
 
-I have made progress toward this, with some contributions to [Autodocodec](#autodocodec) and [AesonDiff](#aesondiff) in pursuit of this goal.
+I have made progress towards this, with some contributions to [Autodocodec](#autodocodec) and [AesonDiff](#aesondiff) in pursuit of this goal.
 
 I also plan to add telemetry providers to this framework.
 
-The goal is to enable adding new entities to a web application within minutes, facilitating rapid prototyping, application expansion, and reducing the number of backend developers needed, even with a significant frontend and UI team.
+The goal is to enable adding new entities to a web application within minutes, facilitating rapid prototyping and application expansion, and reducing the number of backend developers needed, even with a significant frontend and UI team.
 
 ## More About Me
 
