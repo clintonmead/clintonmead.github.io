@@ -87,7 +87,9 @@ Because complexity is a *higher order of emergence greater than the sum of its p
 
 But in the first case, we now have:
 
-3. Something that happens when we assign a "name" to an "email".
+<ol start="3">
+  <li>Something that happens when we assign a "name" to an "email".</li>
+</ol>
 
 What happens here is probably just a bug and people don't get their emails. Regardless of the details here, we had a system with two parts, but now we have this additional emergent behaviour that we have to consider, if people aren't careful.
 
